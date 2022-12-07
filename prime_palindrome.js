@@ -1,23 +1,14 @@
-1.Check whether number is prime or not
-let num=5;
-let count=2;
-for(let i=0;i<=num;i++){
-
-if(num%i==2){
-count--
-console.log("prime number")
-}else{
-console.log("not an prime number")
-
-
-
-1.Check whether a string is palindrome or not
-let str="naman";
-let count=2;
-for(let i=str.length-1;i<=str.length;i--){
-
-if(str[i]==str.length)
-
-console.log(The string is palindrome")
-}else{
-console.log("The string is not palindrome")
+var n = 6;
+var i;
+var flag = true;
+for (i = 2; i < n; i++) {
+    if (n % i == 0) {
+        flag = false;
+        break;
+    }
+}
+if (flag) {
+    console.log("It Is Prime Number");
+} else {
+    console.log("It is not Prime Number");
+}
