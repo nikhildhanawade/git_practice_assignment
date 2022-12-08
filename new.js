@@ -15,6 +15,7 @@ if (flag) {
     console.log("It is not Prime Number");
 }
 
+
 // 2. Paliondrome String
 let str = "MADAM";
 let flag = true;
